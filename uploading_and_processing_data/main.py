@@ -66,8 +66,8 @@ print(individual_element)
 print(sum(nlist,[]))
 
 #link to colab.research.google.com : https://colab.research.google.com/drive/1faEilrioX9Cx5-dCJOqJSBylAd9a3FmO?usp=sharing
-
-
+#link to the stack overflow for the issues encountered : https://stackoverflow.com/questions/28382735/python-pandas-does-not-read-the-first-row-of-csv-file
+#youtube link in order to get help uploading and reading the csv data from github : https://www.youtube.com/watch?v=w4Z7MLwnHbU
 
 
 
