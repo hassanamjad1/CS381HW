@@ -44,18 +44,12 @@ carslist_with_medium_prices2 = [i for i in range(len(prices)) if prices[i] == 'm
 print("Cars index for medium prices using list comprehension : " + str(carslist_with_medium_prices2))
 
 #7
-no_passengers_medium_prices = []
-for i in range(len(prices)):
-  if prices[i] == "med":
-    no_passengers_medium_prices.append(no_of_passengers[i])
-print("No of Passengers for medium prices cars : " + str(no_passengers_medium_prices))
+no_passengers_medium_prices2 =[no_of_passengers[i] for i in range(len(prices)) if prices[i] == 'med']
+print("No of Passengers for medium prices cars using list comprehension : " + str(no_passengers_medium_prices2))
 
 #8
-carslist_with_highPrice_notLow_maintenance = []
-for i in range(len(prices)):
-  if prices[i] == "high" and maintenance_costs[i] != "low":
-     carslist_with_highPrice_notLow_maintenance.append(i)
-print("Cars index for high prices cars and not low maintenance fees : " + str(carslist_with_highPrice_notLow_maintenance))
+carslist_with_highPrice_notLow_maintenance2 = [i for i in range(35) if prices[i] == "high" and maintenance_costs[i] != "low"]
+print("Cars index for high prices cars and not low maintenance fees using list comprehension : " + str(carslist_with_highPrice_notLow_maintenance2))
 
 #Nested List Comprehension (no file needed):
 #1
