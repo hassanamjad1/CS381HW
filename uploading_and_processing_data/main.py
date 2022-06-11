@@ -1,11 +1,6 @@
 import csv
 import pandas as pd
 
-# with open("https://raw.githubusercontent.com/hassanamjad1/CS381HW/main/uploading_and_processing_data/cars-sample35.csv") as csvfile:
-#   spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-#   for row in spamreader:
-#     print(row)
-
 #1
 headers = ["Price","Maintenance Cost","Number of doors","Number of passengers","Luggage capacity","Safety Rating","Classification of vehicle"]
 df = pd.read_csv("https://raw.githubusercontent.com/hassanamjad1/CS381HW/main/uploading_and_processing_data/cars-sample35.csv",header=None)
